@@ -24,9 +24,9 @@ Now edit .env file :
 DB_CONNECTION=mysql<br/>
  DB_HOST=127.0.0.1<br/>
  DB_PORT=3306<br/>
- DB_DATABASE=homestead<br/>
- DB_USERNAME=homestead<br/>
- DB_PASSWORD=secret</i>
+ DB_DATABASE=your DB<br/>
+ DB_USERNAME=your user<br/>
+ DB_PASSWORD=your login</i>
 
 <h3>With this</h3>
 <i>DB_CONNECTION=sqlite</i>
@@ -34,4 +34,7 @@ DB_CONNECTION=mysql<br/>
 Now go to database folder and create a new file named <b>database.sqlite</b> (see the extension, it should be .sqlite not .txt)
 
 Now atlast, run => <b>php artisan migrate</b>
+
+npm install
+
 
